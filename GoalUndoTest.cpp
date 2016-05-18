@@ -264,7 +264,7 @@ TEST_F(GoalUndoTest, goalUndoOperationAdvanced)
 	ASSERT_EQ(g_same_.getOperations(), "same same");
 
 	ASSERT_EQ(g0_.getGoal(), "");
-	//ASSERT_EQ(g1_.getGoal(), "");	// inconsistency - fail here
+	//ASSERT_EQ(g1_.getGoal(), "");	// inconsistency - fail here 
 	ASSERT_EQ(g2_.getGoal(), "goal_2");
 	ASSERT_EQ(g_dupl_.getGoal(), "goal_1");
 	ASSERT_EQ(g_same_.getGoal(), "same");
